@@ -1,0 +1,17 @@
+.navigation {
+  &__list {
+    display: flex;
+    gap: 40px;
+
+    @include for-phone {
+      gap: 10px;
+    }
+  }
+
+  &__link {
+    color: $purpure-color;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 115%;
+  }
+}
