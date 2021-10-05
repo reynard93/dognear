@@ -1,17 +1,37 @@
 .link-drop {
-  padding: 20px 20px 60px;
-  background-color: #e1f1ff;
+  position: relative;
+  overflow: hidden;
+
+  &__data-wrapper {
+    position: relative;
+  }
+
+  &__background {
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.6;
+    width: 100%;
+    left: 50%;
+    top: -60px;
+    transform: translateX(-50%);
+
+    svg {
+      width: 100%;
+    }
+  }
 
   &__data {
     margin: auto;
     width: 1000px;
+    padding: 60px 20px 60px;
   }
 
   &__header {
     font-size: 50px;
     line-height: 115%;
     color: $secondary-color;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
     &-red {
       color: $burgundy;
@@ -47,16 +67,6 @@
     margin-right: 5px;
   }
 
-  &__text {
-    padding: 15px;
-    background-color: $white;
-    font-size: 14px;
-    line-height: 19px;
-    color: $secondary-color;
-    border-radius: 10px;
-    width: 300px;
-  }
-
   &__save {
     display: flex;
     margin-top: 10px;
@@ -72,6 +82,12 @@
     border-radius: 100px;
     width: fit-content;
     margin-left: auto;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 0 10px $purpure-color;
+    }
   }
 
   &__share-links {
