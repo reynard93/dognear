@@ -24,10 +24,9 @@
   }
 
   &__blue {
-    transform: all 0.3s easy-in-out;
-
     svg {
       border-radius: 100px;
+      transition: all 0.2s ease-in-out;
     }
     path {
       fill: $purpure-color;
@@ -37,7 +36,7 @@
       svg {
         cursor: pointer;
         transform: scale(1.1);
-        box-shadow: 0 0 30px $purpure-color;
+        box-shadow: 0 0 10px $purpure-color;
       }
     }
   }

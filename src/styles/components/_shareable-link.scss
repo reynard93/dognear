@@ -1,0 +1,21 @@
+.shareable-link {
+  padding: 4px;
+  padding: 15px;
+  background-color: $white;
+  font-size: 14px;
+  line-height: 19px;
+  color: $secondary-color;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+
+  &__text {
+    overflow: hidden;
+    min-width: 250px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
