@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
 import React, { useState, useContext, useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 import BuyMoreBtn from '../BuyMoreBtn';
 import { appStore } from '../../state/app';
 import GenerateCountBtn from '../GenerateCountBtn';
@@ -7,6 +8,7 @@ import GenerateCountBtn from '../GenerateCountBtn';
 const GenerateBlock = () => {
   const { state } = useContext(appStore);
   const { wallet } = state;
+  const history = useHistory();
 
   const [active, setActive] = useState();
   const [showMessage, setShowMessage] = useState(false);
@@ -22,12 +24,22 @@ const GenerateBlock = () => {
   }, [showMessage]);
 
   const handleClick = () => {
-    console.log('walet', wallet);
+    history.push('/#generate');
     if (!wallet.signedIn) {
       wallet.signIn();
     } else if (!active) {
       setShowMessage(true);
     }
+  };
+
+  const handleNumberClick = (number) => {
+    if (active === number) {
+      return;
+    }
+
+    setActive(number);
+    setAnimation('generate-block__animation-hide');
+    setTimeout(() => setAnimation('generate-block__animation-price'), 0);
   };
 
   return wallet ? (
@@ -47,28 +59,16 @@ const GenerateBlock = () => {
       />
       <GenerateCountBtn
         count={1}
-        onClick={() => {
-          setActive(1);
-          if (active === 1) return;
-          setAnimation('generate-block__animation-hide');
-          setTimeout(() => setAnimation('generate-block__animation-price'), 0);
-        }}
+        onClick={() => handleNumberClick(1)}
         isActive={active === 1}
       />
       <GenerateCountBtn
         count={10}
-        onClick={() => {
-          setActive(10);
-          if (active === 10) return;
-          setAnimation('generate-block__animation-hide');
-          setTimeout(() => setAnimation('generate-block__animation-price'), 0);
-        }}
+        onClick={() => handleNumberClick(10)}
         isActive={active === 10}
       />
       {showMessage && (
-        <div className="generate-block__message">
-          select the number of Nearkats
-        </div>
+        <div className="generate-block__message">select 1 or 10 nearkats</div>
       )}
     </div>
   ) : (
