@@ -1,13 +1,13 @@
 .share-social-links {
   &__red {
-    transform: all 0.3s easy-in-out;
-
     svg {
       border-radius: 100px;
+      transition: all 0.2s ease-in-out;
     }
 
     path {
       fill: $burgundy;
+      transition: all 0.2s ease-in-out;
     }
 
     &:hover {

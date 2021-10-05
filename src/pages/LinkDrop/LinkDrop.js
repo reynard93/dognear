@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React from 'react';
 import { ReactSVG } from 'react-svg';
 import ShareSocialLinks from '../../components/ShareSocialLinks';
@@ -7,6 +8,7 @@ import background from '../../assets/images/link-drop-background.svg';
 import ShareableLink from './ShareableLink';
 import ShareableInput from './ShareableInput';
 import ShareableCircle from './ShareableCircle';
+import SaveBtn from './SaveBtn/SaveBtn';
 
 const LinkDrop = () => (
   <div className="link-drop">
@@ -39,9 +41,7 @@ const LinkDrop = () => (
               </li>
             </ul>
             <div className="link-drop__save">
-              <button className="link-drop__save-btn" type="button">
-                Save
-              </button>
+              <SaveBtn />
             </div>
 
             <ShareSocialLinks
