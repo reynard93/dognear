@@ -6,7 +6,7 @@ import GenerateSoldOut from '../../components/Generate/GenerateSoldOut';
 import ShareSocialLinks from '../../components/ShareSocialLinks';
 
 const NoNfts = () => {
-  const soldOut = false;
+  const soldOut = true;
   return (
     <div className="no-nfts">
       <div className="no-nfts__data">
