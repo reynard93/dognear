@@ -5,11 +5,6 @@ import rare from '../../assets/images/rarity-rare.svg';
 import veryRare from '../../assets/images/rarity-very-rare.svg';
 import superRare from '../../assets/images/rarity-super-rare.svg';
 
-import rateDog1 from '../../assets/images/hounds/1.jpg';
-import rateDog2 from '../../assets/images/hounds/2.jpg';
-import rateDog3 from '../../assets/images/hounds/3.jpg';
-import rateDog4 from '../../assets/images/hounds/4.jpg';
-
 const rarityData = {
   rates: [
     {
@@ -47,8 +42,7 @@ const rarityData = {
     {
       id: shortid.generate(),
       svgRarityIcon: common,
-      srcImg: './images/1.jpg',
-      svgRate: rateDog1,
+      srcImg: './images/1.png',
       palette: 2,
       clothes: 3,
       hat: 2,
@@ -56,8 +50,7 @@ const rarityData = {
     {
       id: shortid.generate(),
       svgRarityIcon: superRare,
-      srcImg: './images/2.jpg',
-      svgRate: rateDog2,
+      srcImg: './images/2.png',
       palette: 5,
       clothes: 5,
       hat: 5,
@@ -65,8 +58,7 @@ const rarityData = {
     {
       id: shortid.generate(),
       svgRarityIcon: veryRare,
-      srcImg: './images/3.jpg',
-      svgRate: rateDog3,
+      srcImg: './images/3.png',
       palette: 3,
       clothes: 3,
       hat: 4,
@@ -74,8 +66,7 @@ const rarityData = {
     {
       id: shortid.generate(),
       svgRarityIcon: veryRare,
-      srcImg: './images/4.jpg',
-      svgRate: rateDog4,
+      srcImg: './images/4.png',
       palette: 3,
       clothes: 3,
       hat: 4,

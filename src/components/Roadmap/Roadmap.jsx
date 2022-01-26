@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactSVG } from 'react-svg';
-import bigCat from '../../assets/images/hero-big-cat.svg';
+import heroDog from '../../assets/images/hounds/no-bg-hound.png';
 import clouds from '../../assets/images/roadmap-background-clouds.svg';
 import ellipseRight from '../../assets/images/roadmap-ellipse-right.svg';
 import ellipseLeft from '../../assets/images/roadmap-ellipse-left.svg';
@@ -71,7 +71,7 @@ const Roadmap = () => (
           </p>
         </li>
       </ul>
-      <ReactSVG className="roadmap__icon" src={bigCat} />
+      <img alt="hero-img" className="hero__img" src={heroDog} />
     </div>
   </section>
 );

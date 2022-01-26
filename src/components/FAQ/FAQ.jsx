@@ -19,15 +19,10 @@ const FAQ = () => (
           <li className="faq__item">
             <h3 className="faq__item-title">What’s an NFT?</h3>
             <p className="faq__item-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              vehicula vehicula diam in auctor. Suspendisse ultricies erat sem,
-              nec consequat enim facilisis eu. Curabitur sit amet tempus magna.
-              Sed a mauris eget erat pellentesque gravida vitae at quam. Morbi
-              commodo convallis sapien ut mollis. Nullam et lectus venenatis,
-              condimentum erat nec, rutrum nisl. Aliquam nec euismod ante.
-              Maecenas id neque ipsum. Cras ut felis ultrices enim faucibus
-              congue sit amet id ipsum. Pellentesque id dapibus ex, a blandit
-              erat. Sed tincidunt lorem sit amet ullamcorper congue.
+              NFT stands for non-fungible token, which basically means that its
+              a one-of-a-kind digital asset that belongs to you and you only.
+              The most popular NFTs right now include artwork and music, but can
+              also include videos and even tweets.
             </p>
           </li>
           <li className="faq__item">
@@ -35,45 +30,41 @@ const FAQ = () => (
               Where does my NFT go after I purchase it?
             </h3>
             <p className="faq__item-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              vehicula vehicula diam in auctor. Suspendisse ultricies erat sem,
-              nec consequat enim facilisis eu. Curabitur sit amet tempus magna.
-              Sed a mauris eget erat pellentesque gravida vitae at quam. Morbi
-              commodo convallis sapien ut mollis. Nullam et lectus venenatis,
-              condimentum erat nec, rutrum nisl. Aliquam nec euismod ante.
-              Maecenas id neque ipsum. Cras ut felis ultrices enim faucibus
-              congue sit amet id ipsum. Pellentesque id dapibus ex, a blandit
-              erat. Sed tincidunt lorem sit amet ullamcorper congue.
-            </p>
-          </li>
-          <li className="faq__item">
-            <h3 className="faq__item-title">What’s an NFT?</h3>
-            <p className="faq__item-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              vehicula vehicula diam in auctor. Suspendisse ultricies erat sem,
-              nec consequat enim facilisis eu. Curabitur sit amet tempus magna.
-              Sed a mauris eget erat pellentesque gravida vitae at quam. Morbi
-              commodo convallis sapien ut mollis. Nullam et lectus venenatis,
-              condimentum erat nec, rutrum nisl. Aliquam nec euismod ante.
-              Maecenas id neque ipsum. Cras ut felis ultrices enim faucibus
-              congue sit amet id ipsum. Pellentesque id dapibus ex, a blandit
-              erat. Sed tincidunt lorem sit amet ullamcorper congue.
+              NFTs will appear in your NEAR wallet immediately after purchase
             </p>
           </li>
           <li className="faq__item">
             <h3 className="faq__item-title">
-              Where does my NFT go after I purchase it?
+              Does a shelter need to buy a NEAR Rescue Dog NFT to receive a
+              grant?
             </h3>
             <p className="faq__item-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              vehicula vehicula diam in auctor. Suspendisse ultricies erat sem,
-              nec consequat enim facilisis eu. Curabitur sit amet tempus magna.
-              Sed a mauris eget erat pellentesque gravida vitae at quam. Morbi
-              commodo convallis sapien ut mollis. Nullam et lectus venenatis,
-              condimentum erat nec, rutrum nisl. Aliquam nec euismod ante.
-              Maecenas id neque ipsum. Cras ut felis ultrices enim faucibus
-              congue sit amet id ipsum. Pellentesque id dapibus ex, a blandit
-              erat. Sed tincidunt lorem sit amet ullamcorper congue.
+              yes every NEAR Rescue Dog nft owner will be able to submit a
+              funding proposal to the dao. From emergency medicine or food
+              grants to helping improve infrastructure or equipment of a
+              shelter. We will weigh requests for funds based on need giving
+              priority to non profit and volunteer shelters.
+            </p>
+          </li>
+          <li className="faq__item">
+            <h3 className="faq__item-title">
+              Does a shelter need to buy a NEAR Rescue Dog NFT to receive a
+              grant?
+            </h3>
+            <p className="faq__item-text">
+              Does a shelter need to buy a NEAR Rescue Dog NFT to receive a
+              grant?
+            </p>
+          </li>
+          <li className="faq__item">
+            <h3 className="faq__item-title">
+              How do we know a shelter is legit and the person sending the
+              request represents the shelter?
+            </h3>
+            <p className="faq__item-text">
+              We will research every shelter request and in that process we will
+              find the appropriate representative to send funds to regardless of
+              who submitted the request, ensuring no shelters are misrepresented
             </p>
           </li>
         </ul>

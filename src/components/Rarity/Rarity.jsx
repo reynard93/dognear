@@ -18,12 +18,12 @@ const Rarity = () => (
       <div className="rarity__content">
         <div className="rarity__information">
           <p className="rarity__text">
-            All Nearkats are cute, however, some are more rare than others. The
-            rarity of your Nearkat is determined by its attributes.
+            All NEAR Rescue Dogs are cool, however, some are more rare than
+            others. The rarity of your NEAR Rescue Dog is determined by its
+            attributes.
           </p>
           <p className="rarity__text">
-            Each has been given a score to represent how rare it is. There is
-            also a fancy color system to help you distinquish.
+            Each has been given a score to represent how rare it is.
           </p>
         </div>
         <NearkatsList kats={rarityData.kats} />
