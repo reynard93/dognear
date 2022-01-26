@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactSVG } from 'react-svg';
 import CalendarBtn from './CalendarBtn';
-import bigCat from '../../assets/images/hero-big-cat.svg';
+import bigCat from '../../assets/images/hounds/1.jpg';
 import bgEllipse from '../../assets/images/hero-ellipse.svg';
 import bgCloud1 from '../../assets/images/hero-cloud1.svg';
 import bgCloud2 from '../../assets/images/hero-cloud2.svg';
@@ -26,7 +26,7 @@ const Hero = () => (
         </p>
         <p className="hero__text hero__text_red">Sale Launches August 16th</p>
         <CalendarBtn className="hero__calendar-btn" />
-        <ReactSVG className="hero__img" src={bigCat} />
+        <img alt="hero-img" className="hero__img" src={bigCat} />
       </div>
     </div>
   </div>
