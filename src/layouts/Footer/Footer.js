@@ -21,11 +21,11 @@ const Footer = () => {
         <ReactSVG className="footer__logo" src={logo} />
 
         <p className="footer__text">
-          Nearkat NFTs are built on top of NEAR Protocol, where minting NFTs
+          Near Rescue Dogs NFTs are built on top of NEAR Protocol, where minting
           cost less than a cent per item.
         </p>
         <p className="footer__copyright ">
-          © 2021 Nearkat Guild. All Rights Reserved.
+          © 2021 Near Rescue Dogs Guild. All Rights Reserved.
         </p>
       </div>
     </footer>

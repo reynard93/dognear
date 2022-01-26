@@ -70,7 +70,7 @@ const FAQ = () => (
         </ul>
         <img
           className="faq__kat-img"
-          src="./images/faq-kat.png"
+          src="./images/no-bg-hound.png"
           alt="nearkat"
         />
       </div>
