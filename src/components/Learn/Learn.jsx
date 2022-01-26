@@ -31,8 +31,8 @@ const Learn = () => (
     <div className="learn__picture">
       <img
         className="learn__img"
-        src="./images/learn-kats-gourp.png"
-        alt="nearkats group"
+        src="./images/6hounds.png"
+        alt="nearhounds group"
       />
       <ReactSVG className="learn__background-circle" src={circle} />
       <ReactSVG className="learn__background-ellipse" src={ellipse} />

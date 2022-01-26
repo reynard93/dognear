@@ -9,7 +9,7 @@ const Rarity = () => (
   <section id="rarity" className="rarity">
     <div className="rarity__header">
       <h1 className="rarity__title">
-        10,000&nbsp;Nearkats... How rare is yours?
+        10,000&nbsp;NEAR Rescue Dogs... How rare is yours?
       </h1>
       <RateList rates={rarityData.rates} />
       <ReactSVG className="rarity__header-background" src={gradient} />
