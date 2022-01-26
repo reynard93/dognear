@@ -60,8 +60,8 @@
     height: fit-content;
     position: absolute;
     z-index: 5;
-    right: 0;
-    bottom: -80px;
+    right: 20px;
+    bottom: 40px;
 
     @include for-laptop {
       svg {
